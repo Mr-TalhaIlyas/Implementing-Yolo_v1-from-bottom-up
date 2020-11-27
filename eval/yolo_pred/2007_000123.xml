@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+  <filename>2007_000123</filename>
+  <object>
+    <name>train</name>
+    <confidence>1.0</confidence>
+    <bndbox>
+      <xmin>1</xmin>
+      <ymin>25</ymin>
+      <xmax>358</xmax>
+      <ymax>340</ymax>
+    </bndbox>
+  </object>
+</annotation>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+  <filename>2007_000033</filename>
+  <object>
+    <name>aeroplane</name>
+    <confidence>1.0</confidence>
+    <bndbox>
+      <xmin>9</xmin>
+      <ymin>106</ymin>
+      <xmax>499</xmax>
+      <ymax>262</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>aeroplane</name>
+    <confidence>1.0</confidence>
+    <bndbox>
+      <xmin>324</xmin>
+      <ymin>188</ymin>
+      <xmax>411</xmax>
+      <ymax>223</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>aeroplane</name>
+    <confidence>1.0</confidence>
+    <bndbox>
+      <xmin>420</xmin>
+      <ymin>199</ymin>
+      <xmax>482</xmax>
+      <ymax>226</ymax>
+    </bndbox>
+  </object>
+</annotation>

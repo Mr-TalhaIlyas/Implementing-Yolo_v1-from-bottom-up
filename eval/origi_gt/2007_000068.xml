@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+  <filename>2007_000068.jpg</filename>
+  <object>
+    <name>bird</name>
+    <confidence>1</confidence>
+    <bndbox>
+      <xmin>26</xmin>
+      <ymin>45</ymin>
+      <xmax>266</xmax>
+      <ymax>375</ymax>
+    </bndbox>
+  </object>
+</annotation>

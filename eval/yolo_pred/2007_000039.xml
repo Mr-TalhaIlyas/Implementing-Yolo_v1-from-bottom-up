@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+  <filename>2007_000039</filename>
+  <object>
+    <name>tvmonitor</name>
+    <confidence>1.0</confidence>
+    <bndbox>
+      <xmin>156</xmin>
+      <ymin>88</ymin>
+      <xmax>344</xmax>
+      <ymax>279</ymax>
+    </bndbox>
+  </object>
+</annotation>

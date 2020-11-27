@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+  <filename>2007_000061</filename>
+  <object>
+    <name>boat</name>
+    <confidence>1.0</confidence>
+    <bndbox>
+      <xmin>273</xmin>
+      <ymin>10</ymin>
+      <xmax>437</xmax>
+      <ymax>279</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>boat</name>
+    <confidence>1.0</confidence>
+    <bndbox>
+      <xmin>184</xmin>
+      <ymin>214</ymin>
+      <xmax>281</xmax>
+      <ymax>252</ymax>
+    </bndbox>
+  </object>
+</annotation>

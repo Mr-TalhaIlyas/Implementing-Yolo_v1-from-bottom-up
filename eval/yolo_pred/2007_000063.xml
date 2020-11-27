@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+  <filename>2007_000063</filename>
+  <object>
+    <name>chair</name>
+    <confidence>1.0</confidence>
+    <bndbox>
+      <xmin>75</xmin>
+      <ymin>0</ymin>
+      <xmax>428</xmax>
+      <ymax>375</ymax>
+    </bndbox>
+  </object>
+</annotation>
