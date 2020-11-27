@@ -1,9 +1,8 @@
 # Getting Started
-Usually object detectors have a very complex pipline like RCNN family of 2-stage detectrs. In two-stage detectors first we pass the image throuhg a CNN to get sparce features and then a low level vision algorithm like 'Selective Search' or 'Edge based region detection algorithm' gets the ROIs from those featrue maps. These ROIs are then passed into a second CNN which classifies them accordingly and also regresses their bounding box coordinates in a seperate branch,.
-The concept of Anchor boxes makes the understanding even more difficult for new-commers in the machine field. 
+Usually object detectors have a very complex pipline like RCNN family of 2-stage detectrs. In two-stage detectors first we pass the image throuhg a CNN to get sparce features and then a low level vision algorithm like 'Selective Search' or 'Edge based region detection algorithm' gets the ROIs from those featrue maps. These ROIs are then passed into a second CNN which classifies them accordingly and also regresses their bounding box coordinates in a seperate branch.The concept of Anchor boxes makes the understanding even more difficult for new-commers in the machine field. 
 
 So befor diving into those complex and highly accurate OD let's start with the simplest multi-object detector namely YOLO.
-In this I try to implement YOLO-v1 from scratch without any pre-training or using any API.
+In this I try to implement YOLO-v1 from scratch without any pre-training or using any API. The key reason for working on this was to establish a concrete understanding of keyconcepts of object detection, for future works on object detection. High precision, then, is not the end game here.
 
 First of all before going furhter I'd like to clearify some thing about **Darknet** which kept me confused for quite a while. **Darknet** is just a term which houses all the CNNs architecture that serve as a back bone feature extractors in YOLO family just like any othe backbone like ResNet, Inception, VGG-16, Hourglass etc.
 So, don't get intimidated the term and the image below.
@@ -182,6 +181,15 @@ follow their training reoutine to letter may be that's the reason. But the main 
 Faster-RCNN, Efficent-Det etc.
 
 ## Results
+
+### Visual Results
+
+![alt text](https://github.com/Mr-TalhaIlyas/Implementing-Yolo_v1-from-bottom-up/blob/master/images/op.jpg?raw=true)
+![alt text](https://github.com/Mr-TalhaIlyas/Implementing-Yolo_v1-from-bottom-up/blob/master/images/op%20(1).jpg?raw=true)
+![alt text](https://github.com/Mr-TalhaIlyas/Implementing-Yolo_v1-from-bottom-up/blob/master/images/op%20(2).jpg?raw=true)
+![alt text](https://github.com/Mr-TalhaIlyas/Implementing-Yolo_v1-from-bottom-up/blob/master/images/op%20(3).jpg?raw=true)
+![alt text](https://github.com/Mr-TalhaIlyas/Implementing-Yolo_v1-from-bottom-up/blob/master/images/op%20(4).jpg?raw=true)
+![alt text](https://github.com/Mr-TalhaIlyas/Implementing-Yolo_v1-from-bottom-up/blob/master/images/op%20(5).jpg?raw=true)
 
 ### PASCAL-VOC (mAP)
 
