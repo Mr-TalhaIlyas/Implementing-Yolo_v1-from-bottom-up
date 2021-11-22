@@ -1,3 +1,5 @@
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FMr-TalhaIlyas%2FImplementing-Yolo_v1-from-bottom-up&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
 # Getting Started
 Usually object detectors have a very complex pipline like RCNN family of 2-stage detectrs. In two-stage detectors first we pass the image throuhg a CNN to get sparce features and then a low level vision algorithm like 'Selective Search' or 'Edge based region detection algorithm' gets the ROIs from those featrue maps. These ROIs are then passed into a second CNN which classifies them accordingly and also regresses their bounding box coordinates in a seperate branch.The concept of Anchor boxes makes the understanding even more difficult for new-commers in the machine field. 
 
